@@ -1,0 +1,22 @@
+p{
+    text-align: justify;
+}
+
+
+/* Garente que o container ocupe a tela inteira*/
+.conteiner-da-imagem {
+width: 100vw;
+height: 100vh;
+overflow: hidden; /*corta sobras se mecessário*/
+}
+
+/* Faz a imagem preencher o container*/
+img{
+width: 100%;
+height: 90%;
+object-fit: cover;/* Corta as bordas sem distorcer ou amasar a foto*/
+}
+
+
+
+
